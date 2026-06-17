@@ -22,6 +22,17 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# Load environment variables from .env file if present
+if os.path.exists(".env"):
+    with open(".env") as f:
+        for line in f:
+            if line.strip() and not line.startswith("#"):
+                try:
+                    key, val = line.strip().split("=", 1)
+                    os.environ[key.strip()] = val.strip().strip("'\"")
+                except ValueError:
+                    pass
+
 # MongoDB Connection
 MONGODB_URI = os.getenv("MONGODB_URI", "mongodb+srv://mugil1206:mugilan@cluster0.zhm3u.mongodb.net/")
 client = AsyncIOMotorClient(MONGODB_URI)
