@@ -34,7 +34,9 @@ if os.path.exists(".env"):
                     pass
 
 # MongoDB Connection
-MONGODB_URI = os.getenv("MONGODB_URI", "mongodb+srv://mugil1206:mugilan@cluster0.zhm3u.mongodb.net/")
+MONGODB_URI = os.getenv("MONGODB_URI")
+if not MONGODB_URI:
+    raise ValueError("MONGODB_URI environment variable is not set")
 client = AsyncIOMotorClient(MONGODB_URI)
 db = client["linkedin_scraper"]
 
