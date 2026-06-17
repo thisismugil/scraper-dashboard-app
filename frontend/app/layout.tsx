@@ -14,8 +14,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Team 3 Scrapper Bot | LinkedIn Exposure Incident Simulation",
+  title: "Dark Web",
   description: "Educational cybersecurity dashboard simulating automated API data collection.",
+  icons: {
+    icon: "/illuminati_logo.webp",
+  },
 };
 
 export default function RootLayout({
@@ -36,20 +39,20 @@ export default function RootLayout({
                 <span className="bg-red-500 text-white px-2 py-0.5 rounded text-lg font-black tracking-tight">TEAM 3</span>
                 <span className="text-slate-100 font-semibold tracking-tight">Scrapper bot</span>
               </Link>
-              <nav className="hidden md:flex items-center gap-5 text-xs font-semibold uppercase tracking-wider text-slate-400">
+              <nav className="hidden md:flex items-center gap-5 px-10 text-xs font-semibold uppercase tracking-wider text-slate-400">
                 <Link href="/" className="hover:text-red-400 transition-colors">Target Connect</Link>
                 <Link href="/dashboard" className="hover:text-red-400 transition-colors">Console</Link>
                 <Link href="/collected-data" className="hover:text-red-400 transition-colors">Collected Database</Link>
                 <Link href="/analytics" className="hover:text-red-400 transition-colors">Metrics</Link>
                 <Link href="/education" className="hover:text-red-400 transition-colors">How Scraping Works</Link>
-                <Link href="/linkedin-demo" className="hover:text-red-400 transition-colors text-amber-500">LinkedIn Incident</Link>
+                {/* <Link href="/linkedin-demo" className="hover:text-red-400 transition-colors text-amber-500">LinkedIn Incident</Link> */}
               </nav>
             </div>
             <div className="flex items-center gap-4">
-              <span className="inline-flex items-center gap-1.5 rounded-full bg-red-950/50 px-2 py-1 text-[10px] uppercase font-bold tracking-widest text-red-400 border border-red-900/50">
+              {/* <span className="inline-flex items-center gap-1.5 rounded-full bg-red-950/50 px-2 py-1 text-[10px] uppercase font-bold tracking-widest text-red-400 border border-red-900/50">
                 <span className="h-1.5 w-1.5 rounded-full bg-red-500 animate-pulse"></span>
                 Attacker Console active
-              </span>
+              </span> */}
             </div>
           </div>
         </header>
@@ -60,7 +63,7 @@ export default function RootLayout({
         
         <footer className="border-t border-slate-900 bg-[#0d1321] py-6">
           <div className="mx-auto max-w-7xl px-4 text-center text-xs text-slate-500 sm:px-6 lg:px-8">
-            <p>&copy; {new Date().getFullYear()} Attacker Dashboard. Strictly for Educational Cybersecurity Demos using fake data.</p>
+            <p>&copy; {new Date().getFullYear()} Attacker Dashboard.</p>
           </div>
         </footer>
       </body>

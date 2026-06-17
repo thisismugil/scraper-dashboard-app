@@ -9,7 +9,7 @@ export default function CybersecurityEducation() {
     <div className="mx-auto max-w-5xl px-4 py-8 sm:px-6 lg:px-8">
       {/* Header Panel */}
       <div className="mb-8 border-b border-slate-800 pb-6 text-center">
-        <h1 className="text-3xl font-extrabold text-white tracking-tight">Cybersecurity Education Panel</h1>
+        <h1 className="text-3xl font-extrabold text-white tracking-tight">How Scrapping Works</h1>
         <p className="text-sm text-slate-400 mt-1 uppercase font-mono tracking-wider">
           Understanding the Mechanics and Prevention of Large-Scale Data Scraping
         </p>

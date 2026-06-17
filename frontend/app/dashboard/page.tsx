@@ -368,7 +368,7 @@ export default function ScraperConsole() {
           </div>
 
           {/* Context Explainer Box */}
-          <div className="bg-[#080b11] border border-slate-800/80 rounded-xl p-4 text-xs leading-relaxed text-slate-400">
+          {/* <div className="bg-[#080b11] border border-slate-800/80 rounded-xl p-4 text-xs leading-relaxed text-slate-400">
             <h4 className="text-slate-200 font-bold mb-1">Defense Simulation Guide:</h4>
             <p className="mb-2">
               1. Run collection with **Protection OFF**. The script successfully harvests 100 profiles in seconds.
@@ -376,7 +376,7 @@ export default function ScraperConsole() {
             <p>
               2. Toggle **Protection ON**. Run collection again. The scraper script gets identified and blocked, failing instantly.
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

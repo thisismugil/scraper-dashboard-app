@@ -152,8 +152,8 @@ export default function ScraperAnalytics() {
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            {/* Top Locations Pie Chart */}
-            <div className="bg-[#0d1321] border border-slate-800 rounded-2xl p-6 shadow-xl">
+
+            {/* <div className="bg-[#0d1321] border border-slate-800 rounded-2xl p-6 shadow-xl">
               <h3 className="text-base font-bold text-white mb-6 flex items-center gap-2">
                 <Compass className="h-4.5 w-4.5 text-red-500" />
                 Target Geography Density (Locations)
@@ -181,7 +181,7 @@ export default function ScraperAnalytics() {
                   </ResponsiveContainer>
                 </div>
                 
-                {/* Custom Legend */}
+                
                 <div className="w-full sm:w-1/3 flex flex-col gap-2 font-mono text-[10px] mt-4 sm:mt-0">
                   {data.topLocations.map((item, idx) => (
                     <div key={idx} className="flex items-center justify-between text-slate-300">
@@ -194,7 +194,7 @@ export default function ScraperAnalytics() {
                   ))}
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* Top Companies Bar Chart */}
             <div className="bg-[#0d1321] border border-slate-800 rounded-2xl p-6 shadow-xl">

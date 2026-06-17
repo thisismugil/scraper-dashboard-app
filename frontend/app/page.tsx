@@ -56,11 +56,11 @@ export default function ScraperLanding() {
         animate={{ opacity: 1, y: 0 }}
         className="text-center mb-10"
       >
-        <div className="inline-flex p-3 rounded-full bg-red-950/30 border border-red-500/20 text-red-500 mb-4">
+        {/* <div className="inline-flex p-3 rounded-full bg-red-950/30 border border-red-500/20 text-red-500 mb-4">
           <Cpu className="h-10 w-10 animate-pulse" />
-        </div>
+        </div> */}
         <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl">
-          CyberScrape Operations Center
+          Team 3's Data scrapping bot
         </h1>
         <p className="mt-3 text-sm text-slate-400 max-w-xl mx-auto uppercase tracking-widest font-semibold">
           LinkedIn Data Exposure Incident Simulation
@@ -79,13 +79,13 @@ export default function ScraperLanding() {
 
         <h2 className="text-lg font-bold text-white mb-6 flex items-center gap-2 border-b border-slate-800 pb-3">
           <Radio className="h-5 w-5 text-red-500 animate-pulse" />
-          Target API Connection Console
+          Target API to Connect and Scrap
         </h2>
 
         <form onSubmit={handleConnect} className="space-y-6">
           <div>
             <label className="block text-xs font-bold uppercase tracking-wider text-slate-400 mb-2">
-              Target Site URL
+              Target API Endpoint
             </label>
             <div className="relative">
               <Link className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-500" />
