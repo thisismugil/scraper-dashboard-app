@@ -39,12 +39,12 @@ export default function RootLayout({
                 <span className="bg-red-500 text-white px-2 py-0.5 rounded text-lg font-black tracking-tight">TEAM 3</span>
                 <span className="text-slate-100 font-semibold tracking-tight">Scrapper bot</span>
               </Link>
-              <nav className="hidden md:flex items-center gap-5 px-10 text-xs font-semibold uppercase tracking-wider text-slate-400">
+              <nav className="hidden md:flex items-center gap-5 px-20 text-xs font-semibold uppercase tracking-wider text-slate-400">
                 <Link href="/" className="hover:text-red-400 transition-colors">Target Connect</Link>
                 <Link href="/dashboard" className="hover:text-red-400 transition-colors">Console</Link>
                 <Link href="/collected-data" className="hover:text-red-400 transition-colors">Collected Database</Link>
                 <Link href="/analytics" className="hover:text-red-400 transition-colors">Metrics</Link>
-                <Link href="/education" className="hover:text-red-400 transition-colors">How Scraping Works</Link>
+                {/* <Link href="/education" className="hover:text-red-400 transition-colors">How Scraping Works</Link> */}
                 {/* <Link href="/linkedin-demo" className="hover:text-red-400 transition-colors text-amber-500">LinkedIn Incident</Link> */}
               </nav>
             </div>

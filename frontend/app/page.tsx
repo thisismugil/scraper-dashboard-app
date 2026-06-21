@@ -133,7 +133,7 @@ export default function ScraperLanding() {
                 <p className="mt-1 text-[11px] text-slate-400">{message}</p>
                 {status === 'success' && (
                   <div className="mt-4 flex justify-between items-center bg-emerald-950/50 p-2.5 rounded border border-emerald-900/30">
-                    <span>Identified Profiles Available: <strong>{profilesCount}</strong></span>
+                    <span>Id avaiables: <strong>{profilesCount}</strong></span>
                     <button
                       onClick={() => router.push('/dashboard')}
                       className="bg-emerald-600 hover:bg-emerald-500 text-white text-[10px] font-bold px-3 py-1.5 rounded flex items-center gap-1 transition-all"
